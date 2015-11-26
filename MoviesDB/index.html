@@ -11,16 +11,17 @@
 	<script src="javascript/vendor/bootstrap.min.js"></script>
   </head>
   <body>  
-    <div class='container'>
-     <div class='row'>
-       <ul class='list-inline'>
-         <li><a href='#/popular'>Popular</a></li>
-         <li><a href='#/upcoming'>Upcoming</a></li>
-         <li><a href='#/nowPlaying'>Now Playing</a></li>
-         <li><a href='#/topRated'>Top Rated</a></li>
-       </ul>
-     </div>
-    </div>
+    <nav class="navbar navbar-inverse">
+      <div class="nav navbar-header">
+        <a class="navbar-brand" href="#/">MoviesDB</a>       
+      </div>      
+        <ul class="nav navbar-nav">
+         <li><a href="#/popular" >Popular</a></li>
+         <li><a href="#/topRated">Top Rated</a></li>
+         <li><a href="#/upcoming">UpComing</a></li>
+          <li><a href="#/nowPlaying">Now Playing</a></li>
+      </ul>
+  </nav>
     <div ng-view>
     </div>
   </body>
